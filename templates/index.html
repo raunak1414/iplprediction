@@ -1,0 +1,53 @@
+<html>
+    <body>
+
+
+<form action="{{url_for('predict')}}">
+
+    <select name='team1' required>
+        <option value="Sunrisers Hyderabad">Sunrisers Hyderabad</option>
+        <option value="Mumbai Indians">Mumbai Indians</option>
+        <option value="Gujarat Lions">Gujarat Lions</option>
+        <option value="Rising Pune Supergiant">Rising Pune Supergiant</option>
+        <option value="Royal Challengers Bangalore">Royal Challengers Bangalore</option>
+        <option value="Kolkata Knight Riders">Kolkata Knight Riders</option>
+        <option value="Delhi Daredevils">Delhi Daredevils</option>
+        <option value="Kings XI Punjab">Kings XI Punjab</option>
+        <option value="Chennai Super Kings">Chennai Super Kings</option>
+        <option value="Rajasthan Royals">Rajasthan Royals</option>
+        <option value="Deccan Chargers">Deccan Chargers</option>
+        <option value="Kochi Tuskers Kerala">Kochi Tuskers Kerala</option>
+        <option value="Pune Warriors">Pune Warriors</option>
+        <option value="Rising Pune Supergiants">Rising Pune Supergiants</option>
+        <option value="Delhi Capitals">Delhi Capitals</option>
+    </select>
+
+    <select name='team2' required>
+        <option value="Sunrisers Hyderabad">Sunrisers Hyderabad</option>
+        <option value="Mumbai Indians">Mumbai Indians</option>
+        <option value="Gujarat Lions">Gujarat Lions</option>
+        <option value="Rising Pune Supergiant">Rising Pune Supergiant</option>
+        <option value="Royal Challengers Bangalore">Royal Challengers Bangalore</option>
+        <option value="Kolkata Knight Riders">Kolkata Knight Riders</option>
+        <option value="Delhi Daredevils">Delhi Daredevils</option>
+        <option value="Kings XI Punjab">Kings XI Punjab</option>
+        <option value="Chennai Super Kings">Chennai Super Kings</option>
+        <option value="Rajasthan Royals">Rajasthan Royals</option>
+        <option value="Deccan Chargers">Deccan Chargers</option>
+        <option value="Kochi Tuskers Kerala">Kochi Tuskers Kerala</option>
+        <option value="Pune Warriors">Pune Warriors</option>
+        <option value="Rising Pune Supergiants">Rising Pune Supergiants</option>
+        <option value="Delhi Capitals">Delhi Capitals</option>
+    </select>
+
+    <select name='toss_winner' required>
+        <option value="0">Team 1</option>
+        <option value="1">Team 2</option>
+    </select>
+
+<input type='radio' name='toss_decision' value="0">bat
+<input type='radio' name='toss_decision' value="1">feild
+<input type="submit">
+</form>
+    </body>
+</html>
